@@ -68,7 +68,7 @@ main {
 }
 
 #left-panel {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -79,15 +79,58 @@ main {
   border: solid black 3px;
   padding: 25px;
   margin: 10px;
+  flex-direction: row;
+  color: white; 
 }
 
-ul {
-  margin-left: 50px;
+.card h1 {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  margin: 10px;
+  flex-direction: row;
+  justify-content: space-around; 
 }
 
-li {
-  margin: auto;
+#card1 {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
 }
+
+.card h2 {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  margin: 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#card2 {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  justify-content: right;
+}
+
+.card h3 {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  margin: 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#card3 {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  justify-content: left;
+}
+
+
 
 #right-panel {
   width: 250px;
