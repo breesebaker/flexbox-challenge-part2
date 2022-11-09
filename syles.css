@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.border-heading {
+  border: 3px solid red;
+  margin: 10px;
+  text-align: center;
+  color: green;
+  font-family: Pacifico;
+}
+
+
+.h1:active {
+  text-align: center;
+  font-family: Permanent Marker;
+  text-decoration: underline;
+  color: green;
+
+}
+.p1 {
+  text-align: center;
+  font-family: Pacifico; 
+  font-size: 250%;
+  color: aqua;
+}
+.p2 {
+  text-align: center;
+  font-family: Anton;
+  font-size: 250%;
+  color: blueviolet;
+}
+
+.p3:hover {
+  text-align: center;
+  font-family: fantasy;
+  text-transform: uppercase;
+  font-size: 250%;
+  color: aquamarine;
+}
+
+.p4 {
+  text-align: center;
+  font-family: fantasy;
+  text-transform: uppercase;
+  font-size: 250%;
+  
+}
+
+
+
+
